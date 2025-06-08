@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'source_sans_pro';
+    src: url(./fonts/SourceSansPro-Regular.otf);
+}
+
+
+#task2{
+    background-image: url('./images/header_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 41px;
+    font-family: 'source_sans_pro';
+    color: #FFFFFF;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#header_section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#get_schooled{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header_section span{
+    padding: 20px;
+    font-size: 16px;
+}
+
+#header_section button{
+    border-radius: 50px;
+    padding: 14px;
+    background-color: #C271FF;
+    border: #C271FF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    margin-top: 38px;
+    color: #FFFFFF;
+}
+
+#header_section h1{
+    font-size: 120px;
+    margin: 0;
+}
+  
